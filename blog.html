@@ -58,13 +58,14 @@
 
 
                     <div class="comment-box">
+                        <form action="https://formspree.io/f/xeqvdlnz" method="POST">
                         <h3>Leave a comment</h3>
                         <form action="" class="comment-form"></form>
-                        <input type="text" placeholder="Enter Name">
-                        <input type="text" placeholder="Enter Email">
-                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <input type="text" placeholder="Enter Name" name="username" required>
+                        <input type="text" placeholder="Enter Email" name="email" required>
+                        <textarea rows="5" placeholder="Your Comment" name="Text" required></textarea>
                         <button type="submit" class="Visit-btn red-btn">POST COMMENT</button>
-
+                        </form>
                     </div>
             </div> 
             <div class="blog-right">
